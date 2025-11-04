@@ -1,0 +1,23 @@
+{
+  "name": "insta-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Instagram reel scraper for Vercel",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer-core": "^22.0.0",
+    "@sparticuz/chromium": "^123.0.1"
+  },
+  "devDependencies": {
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
